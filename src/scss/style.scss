@@ -12,6 +12,15 @@
     display:inline-block;
 }
 
+a {
+    display:inline-block;
+    float:left;
+}
+a:hover {
+    text-decoration:none;
+    color:inherit;
+}
+
 .animate-3 {
     -webkit-transition:     0.3s ease;
     -moz-transition:        0.3s ease;
@@ -23,6 +32,17 @@
     -moz-transition:        0.5s ease;
     transition:             0.5s ease;
 }
+
+.button {
+    color:#f90;
+    border:2px solid #f90;
+    padding:1.15em 3em;
+    font-size:1.15em;
+}
+    .button:hover {
+        background-color:#f90;
+        color:#FFF;
+    }
 
 @import 'header';
 @import 'footer';
